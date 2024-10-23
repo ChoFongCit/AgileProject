@@ -14,8 +14,13 @@ nav {
 	/* padding: 0rem calc((100vw - 1300px) / 2); */
 }
 
-main {
+/* main {
         background: #CCCCFF;
+} */
+
+html, body {
+  height: 100%;
+  background-color: #CCCCFF;
 }
 
 .menu-thing {
@@ -45,4 +50,74 @@ nav a {
 	text-decoration: none;
 	color: #FFFFFF;
 	padding: 0 1.5rem;
+}
+
+.AboutParagraph {
+	color: #000000;
+  color: #990099;
+	font-size: 1.5rem;
+  padding-top: 50px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  /* font-weight: bold; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.left, .right {
+  max-width: 20%;
+  height: auto;
+  padding-top: 5;
+}
+
+.left img, .right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border-color: #7777FF;
+  border-width: min(10px, 1vw);
+  border-style: solid;
+}
+
+.middle {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.CataloguePageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.CenterTextCatalogue {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #7777FF;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
 }
